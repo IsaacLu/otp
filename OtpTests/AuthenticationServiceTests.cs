@@ -12,7 +12,7 @@ namespace OtpTests
         {
             var target = new AuthenticationService();
 
-            var actual = target.IsValid("joey", "91000000");
+            var actual = target.IsValid("marcus", "86000000");
             Assert.True(actual);
         }
     }
